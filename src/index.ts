@@ -15,6 +15,7 @@ import {
   type Signer,
   verifyJWS,
   verifyJWT,
+  verifyJWTDecoded,
 } from './JWT.js'
 
 export { toEthereumAddress, concatKDF } from './Digest.js'
@@ -53,6 +54,7 @@ export {
   decodeJWT,
   verifyJWS,
   createJWS,
+  verifyJWTDecoded,
   type Signer,
   type JWTHeader,
   type JWTPayload,
